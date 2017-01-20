@@ -24,6 +24,7 @@ var perspectiveMatrix;
 // Called when the canvas is created to get the ball rolling.
 //
 function start() {
+
   canvas = document.getElementById("glcanvas");
 
   initWebGL(canvas);      // Initialize the GL context
