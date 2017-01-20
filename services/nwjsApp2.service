@@ -1,0 +1,10 @@
+[Unit]
+Description=nwjsTest startup service   
+
+[Service]
+User=artificiel
+ExecStart=/home/artificiel/SourceControl/nwjsTest/scripts/nwjsApp2.sh  
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
